@@ -1,0 +1,84 @@
+h1 {
+    color: #ffffff;
+    font-weight: bold;
+    padding: 1rem;
+}
+h1>span {
+    color: #0055c0;
+}
+p {
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.tratamentos {
+    display: flex;
+    flex-direction: column;
+}
+
+.tratamentos_home {
+    display: flex;
+    background-color: #00b7e7;
+    gap: 1rem;
+    width: 100%;
+    padding: 2rem 4rem;
+}
+
+.home_textos {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: #fff;
+    padding: 1rem;
+    gap: 1rem;
+    background-color: #0598FFff;
+    border-radius: 20px;
+}
+
+.h_textos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.home_imagem {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    box-shadow: 0 3px 7px 0 rgba(0, 0, 0, .13), 0 1px 2px 0 rgba(0, 0, 0, .11);
+    border-radius: 20px;
+    background-color: #0598FF;
+}
+
+.home_imagem>img {
+    width: 100%;
+    max-width: 500px;
+}
+
+@media (width <=1024px) {
+    .tratamentos_home {
+        flex-direction: column;
+        padding: 2rem;
+    }
+    .home_textos {
+        flex-direction: column;
+    }
+}
+
+@media (width <=768px) {
+    .tratamentos_home {
+        padding: 2rem 1.0rem;
+    }
+}
+
+@media (width <=425px) {
+    .tratamentos_home {
+        padding: 1rem .625rem;
+    }
+    .home_textos {
+        padding: .625rem;
+    }
+
+}

@@ -1,0 +1,123 @@
+.formulario{
+    display: flex;
+    margin: 0 auto;
+    gap: 2rem;
+    padding: 2rem 4rem;
+    color: #004193;
+}
+
+h2 {
+    text-align: center;
+    color: #004193;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.texto_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 2rem;
+}
+.texto{
+    padding: 1rem;
+    align-items: center;
+    text-align: center;
+}
+
+.texto > p{
+ font-size: 1rem;
+}
+
+.form_img{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.form_img > img{
+    width: 100%;
+    max-width: 500px;
+}
+
+.container {
+    width: 100%;
+    background-color: white;
+    padding: 1.25rem;
+    box-shadow: #00429339 0px 2px 5px -1px, #0000004d 0px 1px 3px -1px;
+    border-radius: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input, select, textarea {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+textarea {
+    resize: none;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-limpar {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.btn-enviar {
+    background-color: #2ecc71;
+    color: white;
+}
+
+.btn-enviar:hover {
+    background-color: #007a6b;
+}
+
+@media (max-width: 1024px) {
+    .formulario{
+        flex-direction: column-reverse;
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .formulario{
+        padding: 2rem 1rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .formulario{
+        padding: 1rem .625rem;
+    }
+    .texto{
+        padding: 1rem;
+    }
+    .texto_form{
+        padding: 1rem;
+    }
+}

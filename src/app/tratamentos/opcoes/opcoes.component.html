@@ -1,0 +1,29 @@
+<div class="tratamento_options">
+    <div class="topico_opcoes">
+        <h2>{{titulo}}</h2>
+        <p>{{descricao}}</p>
+    </div>
+    <div class="trat_options">
+        <div class="opctions" *ngFor="let icone of icones">
+            <div class="trat_img">
+                <img [src]="icone.src" alt="">
+            </div>
+            <h4>{{ icone.titulo }}</h4>
+            <button [id]="icone.id" (click)="handleClick(icone.id)">{{ icone.button }} </button>
+        </div>
+    </div>
+
+    <div class="topico_finalizacao">
+        <div class="finalizacao">
+            <div class="final_texto">
+                <h5>Não encontrou o procedimento desejado?</h5>
+                <p>Entre em contato agora mesmo com um de nossos especialistas.</p>
+            </div>
+            <div class="final_img">
+                <button><img src="assets/img/whatsapp.png" alt="">Clique aqui</button>
+                <img src="assets/img/atendente.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+

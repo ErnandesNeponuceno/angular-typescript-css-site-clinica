@@ -1,0 +1,179 @@
+h4 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+p {
+  font-size: 1rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+  padding: 3rem 4rem 1rem;
+  gap: 2rem;
+  color: #004193;
+  margin: 0 auto;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.footer_text {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 1rem;
+  height: auto;
+  width: 100%;
+}
+
+.institucional {
+  gap: 1rem;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+  
+}
+
+.institucional_subtopicos>ul {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 0;
+
+}
+
+.institucional_subtopicos>ul>li {
+  list-style: none;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: .5rem;
+
+}
+
+.empresa {
+  gap: 1rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+}
+
+.empresa_subtopicos > p{
+  margin-bottom: .625rem;
+}
+
+.empresa_icons {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+}
+.empresa_icons img{
+  width: 100%;
+  max-width: 48px;
+}
+
+.footer_franquia {
+  display: flex;
+  width: 100%;
+  align-items: start;
+  justify-content: start;
+  gap: 1rem;
+  height: auto;
+}
+
+.franquia{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  height: auto;
+}
+
+.franquia > button{
+  width: 200px;
+  background-color: #004193;
+  color: #ffffff;
+  border-radius: 15px;
+  padding: 5px;
+  border: none;
+}
+
+.franquia > button:hover{
+  background: #00d2ff; 
+  background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);  
+  background: linear-gradient(to right, #3a7bd5, #00d2ff); 
+}
+
+ span{
+  display: flex;
+  align-items: center;
+  background-color: #0055C0;
+  color: #ffffff;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  padding: .625rem;
+  margin: 0 auto;
+}
+
+.premios_icon{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+.premios_icon > span{
+  width: 1px;
+  height: 100px;
+  padding: 0;
+  margin: 5px;
+}
+
+.premios_icon > img{
+  max-width: 48px;
+}
+
+footer li:hover {
+  background-color: #004193;
+  color: #ffffff;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+
+@media (max-width: 1024px) {
+  footer {
+    flex-direction: column-reverse;
+    padding: 2rem;
+  }
+}
+@media (max-width: 768px) {
+  footer {
+    padding: 2rem 1rem;
+  }
+}
+
+@media (max-width: 425px) {
+  footer {
+    padding: 1rem;
+  }
+  .institucional, .empresa, .empresa_icons, .institucional_subtopicos>ul, .franquia{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .footer_text {
+    flex-direction: column;
+  }
+  .premios_icon > img{
+    max-width: 30px;
+  }
+}

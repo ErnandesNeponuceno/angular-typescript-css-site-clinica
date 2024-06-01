@@ -1,0 +1,143 @@
+.chamada {
+    display: flex;
+    background: #013884;
+    background-image: linear-gradient(-45deg, rgba(0, 33, 78, 0.425) 0%, #021c51 100%),
+        url('src/assets/img/bg_6.png');
+    background-size: contain;
+    background-repeat: repeat;
+    text-align: center;
+    padding: 2rem 4rem 0;
+    position: relative;
+}
+
+.chamada_img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.chamada::after {
+    content: "";
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(0deg, #0042938d 0%, #00429336 50%, #00429300 100%);
+}
+
+.chamada_img>img {
+    width: 100%;
+    max-width: 450px;
+}
+
+.chamada_texto {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3rem 0 0 0;
+    gap: 2rem;
+}
+
+.texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.25rem;
+    background: #0575E6;
+    background: -webkit-linear-gradient(to right, #021B79, #0575E6);
+    background: linear-gradient(to right, #021B79, #0575E6);
+    border-radius: 2px;
+}
+
+.texto>h3 {
+    color: #fff;
+    font-weight: 700;
+    margin: 0;
+}
+
+.atendimento {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: .5rem;
+}
+
+.atendimento_top>p {
+    margin: 0;
+    font-weight: 400;
+}
+
+.atendimento_top {
+    width: 100%;
+    display: flex;
+    height: 75px;
+    background-color: #FFA300;
+    color: #fff;
+    padding: .5rem 1rem;
+    border-radius: 2px;
+    gap: .3rem;
+    justify-content: center;
+    align-items: center;
+    font-size: auto;
+}
+
+.atendimento_top:nth-child(2) {
+    background-color: #ffffff;
+    color: #004193;
+}
+
+.atendimento_top:nth-child(2)>img {
+    width: 35px;
+}
+
+.atendimento_top>p>span {
+    font-size: 12px;
+    color: green;
+}
+
+@media (width <=1024px) {
+    .atendimento,
+    .chamada_texto {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .chamada {
+        flex-direction: column-reverse;
+        padding: 2rem 2rem 0rem;
+    }
+
+    .atendimento_top,
+    .texto {
+        width: 400px;
+    }
+
+    .chamada_texto {
+        padding: 1.5rem 0 2rem 0;
+    }
+}
+
+@media (width <=768px) {
+    .chamada {
+        padding: 2rem 1rem 0rem;
+    }
+}
+
+@media (width <=425px) {
+    .chamada {
+        padding: 1rem .625rem 0rem;
+    }
+
+    .atendimento_top,
+    .texto {
+        width: 90%;
+
+    }
+
+
+}

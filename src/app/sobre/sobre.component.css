@@ -1,0 +1,81 @@
+h2, .plus{
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.sobre_topico > h3{
+    display: flex;
+    font-size: 32px;
+    color: #F8D800;
+    font-weight: bold;
+}
+
+.sobre {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    background-image:  url('src/assets/img/bg_4.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 2rem 4rem 0rem;
+}
+
+.sobre_img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.sobre_img>img {
+    width: 100%;
+    max-width: 350px;
+}
+.sobre_texto {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 1rem;
+}
+.texto > p{
+    font-size: 1.2rem;
+    margin-bottom: .625rem;
+    color: #ffffff;
+    font-weight: 400;
+}
+.texto{
+    max-width:400px ;
+}
+
+
+@media (max-width: 1024px) {
+    .sobre{
+        flex-direction: column-reverse;
+        padding: 2rem 2rem 0;
+    }
+    .sobre_texto{
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (max-width: 768px) {
+    .sobre{
+        padding: 2rem 1rem 0;
+    }.sobre_texto{
+        padding: .625rem;
+    }
+
+}
+
+@media (max-width: 425px) {
+    .sobre{
+        align-items: center;
+        padding: 1rem .625rem  0;
+        justify-content: center;
+    }
+}

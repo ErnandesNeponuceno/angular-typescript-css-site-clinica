@@ -1,0 +1,76 @@
+.diferenciais {
+    width: 100%;
+    padding: 2rem 4rem;
+}
+
+.diferenciais h2 {
+    text-align: center;
+    color: #007BFF;
+    margin-bottom: 1.25rem;
+    font-size: 2rem;
+    position: relative;
+}
+
+.diferenciais h2::after {
+    content: '';
+    display: block;
+    width: 70px;
+    height: 2px;
+    background: #007BFF;
+    margin: 10px auto 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.item {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: #00429339 0px 2px 5px -1px, #0000004d 0px 1px 3px -1px;
+    border-radius: 20px;
+}
+
+.item img {
+    max-width: 80px;
+    margin-bottom: 10px;
+}
+
+.item h3 {
+    color: #007BFF;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.item p {
+    color: #666;
+    font-size: 1rem;
+}
+
+@media (max-width: 1024px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .diferenciais {
+        padding: 2rem 1rem;
+    }
+    .grid {
+        grid-template-columns: 1fr;
+        padding: 2rem;
+    }
+    
+}
+@media (max-width: 425px) {
+    .diferenciais {
+        padding: 1rem .625rem;
+    }
+    .grid {
+        padding: 1rem;
+    }
+}

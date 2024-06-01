@@ -1,0 +1,10 @@
+<section class="diferenciais">
+  <h2>Diferenciais das nossas clínicas</h2>
+  <div class="grid">
+    <div class="item" *ngFor="let diferencial of diferenciais">
+      <img [src]="diferencial.imgSrc" [alt]="diferencial.alt">
+      <h3>{{ diferencial.titulo }}</h3>
+      <p>{{ diferencial.descricao }}</p>
+    </div>
+  </div>
+</section>

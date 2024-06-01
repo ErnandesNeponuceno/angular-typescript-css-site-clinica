@@ -1,0 +1,12 @@
+<div class="resumo">
+    <div *ngFor="let res of resumos" [ngClass]="res.classe">
+      <div class="res_text">
+        <h3>{{ res.titulo }}</h3>
+        <p>{{ res.descricao }}</p>
+      </div>
+      <div class="res_img">
+        <img [src]="res.imgSrc" alt="">
+      </div>
+    </div>
+</div>
+  

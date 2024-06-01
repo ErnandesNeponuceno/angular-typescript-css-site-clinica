@@ -1,0 +1,12 @@
+<div class="segunda_sessao">
+  <div class="texto_segunda_sessao">
+    <h2>{{ titulo }}</h2>
+    <p>{{ descricao }}</p>
+  </div>
+  <div class="emblemas_segunda_sessao">
+    <div class="icone" *ngFor="let icone of icones">
+      <img [src]="icone.src" alt="">
+      <p>{{ icone.texto }}</p>
+    </div>
+  </div>
+</div>

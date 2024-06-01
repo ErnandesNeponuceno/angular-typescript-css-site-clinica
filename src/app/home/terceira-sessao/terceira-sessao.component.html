@@ -1,0 +1,17 @@
+<div class="terceira_sessao">
+    <div class="texto_terceira_sessao">
+      <p>{{ descricao }}</p>
+      <h2>{{ titulo }}</h2>
+    </div>
+    <div class="box_terceira_sessao">
+      <div class="icone" *ngFor="let icone of icones">
+        <div class="image_terceira_sessao">
+          <img [src]="icone.src" alt="">
+        </div>
+        <div class="text_icone">
+          <h3>{{ icone.titulo }}</h3>
+          <p>{{ icone.descricao }}</p>
+        </div>
+      </div>
+    </div>
+</div>  

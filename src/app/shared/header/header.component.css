@@ -1,0 +1,33 @@
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.25rem 4rem;
+    background-color: #0055C0;
+    height: 120px;
+  }
+
+.header img{
+  max-width: 200px;
+}
+
+
+@media (max-width: 1024px) {
+  .header{
+      padding: 1rem 2rem ;
+  }
+
+}
+@media (max-width: 425px) {
+  .header{  
+    padding:  .625rem 1rem;
+   
+}
+.header img{
+  width: 150px;
+}
+
+
+}

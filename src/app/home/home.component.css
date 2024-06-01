@@ -1,0 +1,131 @@
+.home {
+    background-color: #00B7E7;
+}
+
+.content_home {
+    display: flex;
+    padding: 2rem 4rem;
+    gap: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.text_home {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    flex: 3;
+    border-radius: 20px;
+    background: linear-gradient(176deg, rgba(214, 252, 254, 0.033) 0%, #b5d5ee 200%);
+    height: 100%;
+}
+
+.text__home__page {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    text-align: left;
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem 2rem;
+}
+
+.img_home {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.img_home img {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    object-fit: scale-down;
+    align-self: flex-end;
+}
+
+.text__home__page h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #004193;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.text__home__page p {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.formulario_home {
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    border-radius: .625rem;
+    padding: 1rem;
+    color: #004193;
+    gap: .625rem;
+    flex: 1;
+    position: relative;
+    right: 0px;
+}
+
+.formulario_home>div:first-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.btn_home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.btn_home>button {
+    width: 80%;
+    background-color: #004193;
+    color: #ffffff;
+    border-radius: 15px;
+    padding: 5px;
+    border: none;
+}
+
+.btn_home>button:hover {
+    background: #00d2ff;
+    background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);
+    background: linear-gradient(to right, #3a7bd5, #00d2ff);
+}
+
+
+@media (max-width: 1024px) {
+    .content_home {
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem 2rem;
+    }
+    .text_home {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .content_home {
+        padding: 2rem 1rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .content_home {
+        padding: 1rem .625rem;
+    }
+    .text__home__page {
+        padding: 0 .8rem;
+    }
+}

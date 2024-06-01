@@ -1,0 +1,12 @@
+<div class="avaliacao_clientes">
+    <div class="avaliacao_topico">
+      <h3>{{titulo}}</h3>
+    </div>
+    <div class="avaliacao">
+      <div class="avaliacao_texto" *ngFor="let avaliacao of avaliacoes">
+        <img [src]="avaliacao.src" alt="">
+        <h5>{{avaliacao.nome}}</h5>
+        <p>{{avaliacao.avaliacao}}</p>
+      </div>
+    </div>
+</div>
