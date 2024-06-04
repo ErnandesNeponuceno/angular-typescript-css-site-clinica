@@ -1,11 +1,12 @@
-<nav class="menu">
-    <ul class="menu" #menu>
+<nav class="menu" #nav>
+    <div class="menu-items" #menu>
         <a routerLink="/home" routerLinkActive="active">Home</a>
         <a routerLink="/tratamentos" routerLinkActive="active">Tratamentos</a>
         <a routerLink="/sobre" routerLinkActive="active">Sobre Nós</a>
-        <a a routerLink="/contato" routerLinkActive="active">Agende sua avaliação</a>
-    </ul>
+        <a routerLink="/contato" routerLinkActive="active">Agende sua avaliação</a>
+    </div>
     <div class="menu-icon" #menuBar>
-        <img src="assets/img/menu.png" alt="menu" #iconMenu>
+        <button><img src="assets/img/menu.png" alt="menu" #iconMenu></button>
     </div>
 </nav>
+

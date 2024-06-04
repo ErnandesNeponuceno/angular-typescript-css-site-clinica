@@ -1,7 +1,7 @@
 .chamada {
     display: flex;
     background: #013884;
-    background-image: linear-gradient(-45deg, rgba(0, 33, 78, 0.425) 0%, #021c51 100%),
+    background-image: linear-gradient(-45deg, rgba(0, 33, 78, 0.315) 0%, #021c51 100%),
         url('src/assets/img/bg_6.png');
     background-size: contain;
     background-repeat: repeat;
@@ -91,7 +91,7 @@
     color: #004193;
 }
 
-.atendimento_top:nth-child(2)>img {
+.atendimento_top:nth-child(2)> a >img {
     width: 35px;
 }
 

@@ -3,7 +3,6 @@
     align-items: center;
     justify-content: center;
     padding: 2rem 4rem 0;
-    gap: 1rem;
     color: #ffffff;
     margin: 0 auto;
     width: 100%;
@@ -21,6 +20,7 @@
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    width: 100%;
 }
 
 .texto_quarta_sessao > h2 {
@@ -42,9 +42,10 @@
 .box_quarta_sessao{
     display: flex;
     align-items: center;
-    justify-content: center;
     gap: 1rem;
+    width: 100%;
 }
+
 .box_quarta_sessao > img{
     width: 100%;
     max-width: 400px;
@@ -58,6 +59,9 @@
     
     .texto_quarta_sessao > h2 {
         letter-spacing: .2rem;
+    }
+    .box_quarta_sessao{  
+        justify-content: center;  
     }
 }
 

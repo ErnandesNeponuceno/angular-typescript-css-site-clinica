@@ -125,13 +125,17 @@
     border: none;
     background-color: #10c473;
     border-radius: 50px;
-    color: #fff;
     height: 50px;
     padding: .5rem 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
     align-self: center;
+    
+}
+.final_img>button>a{
+    text-decoration: none;
+    color: #fff;
 }
 
 .final_img>button>img {
@@ -143,49 +147,6 @@
 .final_img>img {
     width: 150px;
 }
-
-
-/* //////////////MODAL/////////////// */
-.hidden {
-    display: none;
-  }
-  
-  .modal, .modal-backdrop {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 9999;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .modal-backdrop {
-    background: rgba(0, 0, 0, 0.5);
-  }
-  
-  .modal-content {
-    background: white;
-    padding: 20px;
-    border-radius: 8px;
-    width: 600px;
-    max-width: 90%;
-    text-align: center;
-  }
-  
-
-
-
-/* //////////////MODAL/////////////// */
-
-
-
-
-
-
-
 
 @media (width <=1024px) {
     .trat_options {

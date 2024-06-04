@@ -7,7 +7,6 @@ import { SharedModule}from './shared/shared.module'
 import { HeaderComponent } from './shared/header/header.component';
 
 import { NavbarComponent } from './shared/navbar/navbar.component';
-
 import { HomeComponent } from './home/home.component';
 import { ContatoComponent } from './contato/contato.component';
 import { SobreComponent } from './sobre/sobre.component';
@@ -22,6 +21,7 @@ import { ChamadaComponent } from './tratamentos/chamada/chamada.component';
 import { FormularioComponent } from './contato/formulario/formulario.component';
 import { DuvidasComponent } from './contato/duvidas/duvidas.component';
 import { DiferenciaisComponent } from './contato/diferenciais/diferenciais.component';
+import { ModalComponent } from './tratamentos/opcoes/modal/modal.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +41,8 @@ import { DiferenciaisComponent } from './contato/diferenciais/diferenciais.compo
     ChamadaComponent,
     FormularioComponent,
     DuvidasComponent,
-    DiferenciaisComponent
+    DiferenciaisComponent,
+    ModalComponent
   ],
   imports: [
     BrowserModule,

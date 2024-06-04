@@ -1,0 +1,11 @@
+<div class="modal-overlay" (click)="closeModal()" >
+  <div class="modal">
+    <img [src]="modalData.src" alt="">
+    <h2>{{ modalData.titulo }}</h2>
+    <p>{{ modalData.descricaoCompleta}}</p>
+    <ul>
+      <li *ngFor="let item of modalData.itens">{{ item }}</li>
+    </ul>
+    <button class="close-btn" (click)="closeModal()">Fechar</button>
+  </div>
+</div>
