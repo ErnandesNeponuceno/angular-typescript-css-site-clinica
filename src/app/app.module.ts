@@ -4,6 +4,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
 import { SharedModule}from './shared/shared.module'
+import { HeaderComponent } from './shared/header/header.component';
+
+import { NavbarComponent } from './shared/navbar/navbar.component';
 
 import { HomeComponent } from './home/home.component';
 import { ContatoComponent } from './contato/contato.component';
@@ -23,6 +26,8 @@ import { DiferenciaisComponent } from './contato/diferenciais/diferenciais.compo
 @NgModule({
   declarations: [
     AppComponent,
+    HeaderComponent,
+    NavbarComponent,
     HomeComponent,
     ContatoComponent,
     SobreComponent,
