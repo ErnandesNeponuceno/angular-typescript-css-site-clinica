@@ -65,10 +65,9 @@ Organização do código em diferentes arquivos.
 </div>
 
 ## 💻 Preview:
-- Veja como ficou o projeto acessando: [Link]()
+- Veja como ficou o projeto acessando: [Link](https://angular-typescript-css-site-clinica.vercel.app/home)
 
-![Imagens do Projeto - Página 01](assets/img/page-01.png)
-![Imagens do Projeto - Página 02](assets/img/page-02.png)
-![Imagens do Projeto - Página 03](assets/img/page-03.png)
-![Imagens do Projeto - Página 04](assets/img/page-04.png)
+![Imagens do Projeto - Página 01](src/assets/img/page-01.png)
+![Imagens do Projeto - Página 03](src/assets/img/page-03.png)
+
 
