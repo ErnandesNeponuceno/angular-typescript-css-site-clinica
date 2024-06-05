@@ -33,8 +33,6 @@ Roteamento:
 Configuração de rotas e navegação entre páginas.
 Roteamento dinâmico e passagem de parâmetros nas rotas.
 
-Diretivas:
-
 ## TypeScript
 
 Tipagem Estática:

@@ -18,7 +18,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); 
-    background-color: #fff;
+    background-color: #fdfdfd;
     padding: 1.25rem;
     border-radius: .625rem;
     gap: 1rem;
@@ -63,7 +63,7 @@
   .modal li {
     list-style: none;
     padding: .5rem;
-    background: linear-gradient(to right, #56ccf2, #2f80ed); 
+    background: linear-gradient(to right, #457fca, #5691c8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     width: 45%;
     border-radius: .625rem;
     color: #fff;
