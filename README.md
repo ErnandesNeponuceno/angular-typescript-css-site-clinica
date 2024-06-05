@@ -60,13 +60,15 @@ Organização do código em diferentes arquivos.
 <div style="display: inline_block">
   <img alt="CSS3" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
   <img alt="TYPESCRIPT" src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white">
-  <img alt="ANGULAR" src=" https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white">
+  <img alt="ANGULAR" src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white">
 
 </div>
 
 ## 💻 Preview:
 - Veja como ficou o projeto acessando: [Link]()
-  
-![Imagem do Projeto]()
 
+![Imagens do Projeto - Página 01](assets/img/page-01.png)
+![Imagens do Projeto - Página 02](assets/img/page-02.png)
+![Imagens do Projeto - Página 03](assets/img/page-03.png)
+![Imagens do Projeto - Página 04](assets/img/page-04.png)
 
