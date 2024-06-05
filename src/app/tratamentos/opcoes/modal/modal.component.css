@@ -47,7 +47,7 @@
   .modal h2 {
     margin: 0;
     padding: .5rem;
-    color: #0055c0;
+    color: #004193;
   }
   
   .modal ul {
@@ -69,7 +69,11 @@
     color: #fff;
     font-weight: 500;
     text-align: center;
-    
+  }
+
+  .modal > p{
+    width: 90%;
+    color: #004193;
   }
 
 @media (width <=1024px) {
@@ -95,6 +99,9 @@
   }
   .modal li{
     width: 100%;;
+  }
+  .modal > p {
+    width: 100%;
   }
 }
 

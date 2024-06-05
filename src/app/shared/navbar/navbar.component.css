@@ -60,11 +60,11 @@ button{
     }
 
     nav .menu-items a:hover {
-        color: #00B7E7;
+        color: #7a21ff;
         transition: background-color 0.05s;
     }
 
-    nav .menu-items .active {
+    nav .menu-items.active {
         transform: translateY(0);
     }
 
