@@ -1,7 +1,12 @@
 .agendamento{
     display: flex;
     justify-content: center;
+    /* invés disso (resposividade) */
     padding: 4rem 4rem 2rem;
+    /* tenta usar isso (responsividade)*/
+    /* max-width: 56rem;  recomendo dar umar olhada nesse link para ver os padrões https://tailwindcss.com/docs/max-width */
+    /* width: 90%; */
+    /* margin: 0 auto; */
     gap: 3rem;
     width: 100%;
     height: auto;
@@ -14,23 +19,27 @@
     background-color: #004193;
     color: white;
     border-radius: 20px;
-    padding: 2rem 2rem 0;
+    padding: 3rem 3rem 2rem;
     width: 100%;
     max-height: 400px;
-    gap: 1rem;
+    position: relative;
 }
 
 .hero-text {
     width: 100%;
-    padding: 1rem 1rem 2rem;
+    position: relative;
+    z-index: 20;
 }
 
 .hero-text h2 {
-    font-size: 2.5rem;
+    font-size: 2.25rem; 
+    line-height: 2.5rem; 
 }
 
 .hero-text p {
-    font-size: 1.25rem;
+    font-size: 1.125rem; 
+    line-height: 1.75rem; 
+    max-width: 30rem;
 }
 
 .hero-text button {
@@ -43,49 +52,37 @@
     font-size: 1rem;
 }
 .hero-text button:hover{
-    border: none;
+    border: 1px solid white;
     background: #00d2ff; 
     background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);  
     background: linear-gradient(to right, #3a7bd5, #00d2ff); 
 }
 
-.hero-image{
-    display: flex;
-    justify-content: center;
-    position: relative;
-    width: 100%;
-}
-
 .hero-image img {
     max-width: 350px;
     width: 100%;
-    position: relative;
-    bottom: 50px;
+    position: absolute;
+    right: 2rem;
+    bottom: 0;
+    z-index: 10;
 }
 
-@media (max-width: 1024px) {
-    .agendamento{
-        padding:2rem;
-    }
-    .hero-section  {
-       max-height: 100%;
-       align-items: normal;
-    }
-    .hero-image img{ 
-        position: static;
-    } 
-}
 
-@media (max-width: 768px) {
+@media (max-width: 1118px) {
     .agendamento{
         padding: 2rem 1rem;
     }
     .hero-section  {
        flex-direction: column; 
+       padding: 2rem 1rem 0;
+       max-height: 100%;
     }
     .hero-text,  .hero-image{
-        width: 100%;
+        width: fit-content;
     }
+    .hero-image img{ 
+        position: static;
+    } 
 }
 
 @media (max-width: 425px) {
