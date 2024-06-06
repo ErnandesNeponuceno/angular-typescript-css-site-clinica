@@ -1,6 +1,5 @@
-⚠️ EM ANDAMENTO ⚠️
 
-## Angular-typescript-css-site-clinica: Site completo com Angular.
+## Site clínica Odonto+ com Angular, Typescript e CSS.
 
 O site criado para uma clinica de odontologia ficticia chamada Odonto +, faz parte do meu processo de evolução continua na criação de uma aplicações web.
 
@@ -68,6 +67,6 @@ Organização do código em diferentes arquivos.
 - Veja como ficou o projeto acessando: [Link](https://angular-typescript-css-site-clinica.vercel.app/home)
 
 ![Imagens do Projeto - Página 01](src/assets/img/page-01.png)
-![Imagens do Projeto - Página 03](src/assets/img/page-03.png)
 
+![Imagens do Projeto - Página 03](src/assets/img/page-03.png)
 
