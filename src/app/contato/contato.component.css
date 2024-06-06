@@ -67,17 +67,6 @@
     z-index: 10;
 }
 
-@media (max-width: 1118px) {
-    .agendamento{
-        padding:2rem;
-    }
-    .hero-section  {
-       max-height: 100%;
-    }
-    .hero-image img{ 
-        position: static;
-    } 
-}
 
 @media (max-width: 1118px) {
     .agendamento{
@@ -86,10 +75,14 @@
     .hero-section  {
        flex-direction: column; 
        padding: 2rem 1rem 0;
+       max-height: 100%;
     }
     .hero-text,  .hero-image{
         width: fit-content;
     }
+    .hero-image img{ 
+        position: static;
+    } 
 }
 
 @media (max-width: 425px) {
