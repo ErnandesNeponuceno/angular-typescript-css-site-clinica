@@ -12,10 +12,7 @@
             <button [id]="icone.id" (click)="handleClick(icone.id)">{{ icone.button }} </button>
         </div>
     </div>
-
     <app-modal *ngIf="showModal" [modalData]="modalData" (closeModalEvent)="closeModal()"></app-modal>
-
-
     <div class="topico_finalizacao">
         <div class="finalizacao">
             <div class="final_texto">

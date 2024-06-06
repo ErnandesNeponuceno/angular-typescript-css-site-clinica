@@ -23,6 +23,7 @@ h2 {
     width: 100%;
     padding: 2rem;
 }
+
 .texto{
     padding: 1rem;
     align-items: center;
@@ -39,6 +40,7 @@ h2 {
     align-items: center;
     justify-content: center;
 }
+
 .form_img > img{
     width: 100%;
     max-width: 500px;

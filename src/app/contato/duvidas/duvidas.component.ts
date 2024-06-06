@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import Toastify from 'toastify-js';
 
-
 @Component({
   selector: 'app-duvidas',
   templateUrl: './duvidas.component.html',

@@ -15,7 +15,6 @@ export class TerceiraSessaoComponent implements OnInit {
     { src: 'assets/img/img_8.png', titulo: 'Clareamento', descricao: 'Procedimento estético que utiliza agentes clareadores para remover manchas e descolorações dos dentes, resultando em um sorriso mais branco e brilhante.' }
   ];
 
-
   constructor() { }
 
   ngOnInit(): void {

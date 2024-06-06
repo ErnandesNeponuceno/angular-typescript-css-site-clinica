@@ -63,13 +63,13 @@ h2, .plus{
         align-items: center;
     }
 }
+
 @media (max-width: 768px) {
     .sobre{
         padding: 2rem 1rem 0;
     }.sobre_texto{
         padding: .625rem;
     }
-
 }
 
 @media (max-width: 425px) {

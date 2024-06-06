@@ -13,21 +13,18 @@
   max-width: 200px;
 }
 
-
 @media (max-width: 1024px) {
   .header{
       padding: 1rem 2rem ;
   }
-
 }
+
 @media (max-width: 425px) {
   .header{  
-    padding:  .625rem 1rem;
-   
+    padding:  .625rem 1rem; 
 }
+
 .header img{
   width: 150px;
 }
-
-
 }

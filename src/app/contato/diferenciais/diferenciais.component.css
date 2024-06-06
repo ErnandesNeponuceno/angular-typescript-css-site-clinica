@@ -64,8 +64,8 @@
         grid-template-columns: 1fr;
         padding: 2rem;
     }
-    
 }
+
 @media (max-width: 425px) {
     .diferenciais {
         padding: 1rem .625rem;

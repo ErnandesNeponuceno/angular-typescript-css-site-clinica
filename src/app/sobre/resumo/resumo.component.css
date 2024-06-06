@@ -63,6 +63,7 @@
     grid-template-columns: repeat(2, 1fr);
 }
 }
+
 @media (max-width: 768px) {
 .resumo{
     grid-template-columns:1fr;
@@ -70,8 +71,8 @@
 .res_text{
     padding: 1rem;
 }
-
 }
+
 @media (max-width: 425px) {
     .res_text{
         padding: .625rem;
@@ -85,6 +86,4 @@
         margin: 0;
         font-size: 14px;
     }
-   
-    
-    }
+}
