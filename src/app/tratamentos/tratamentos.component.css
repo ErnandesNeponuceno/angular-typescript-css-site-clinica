@@ -1,13 +1,11 @@
 h1 {
     color: #ffffff;
     font-weight: bold;
-    padding: 1rem;
 }
 h1>span {
     color: #0055c0;
 }
 p {
-    padding: 1rem;
     font-size: 1rem;
     font-weight: 500;
 }
@@ -15,13 +13,15 @@ p {
 .tratamentos {
     display: flex;
     flex-direction: column;
+    max-width: 100%;
+    margin: 0 auto;
 }
 
 .tratamentos_home {
     display: flex;
     background-color: #00b7e7;
     gap: 1rem;
-    width: 100%;
+    max-width: 100%;
     padding: 2rem 4rem;
 }
 
@@ -41,6 +41,8 @@ p {
     justify-content: center;
     flex-direction: column;
     width: 100%;
+    padding: 1rem;
+    gap: 1rem;
 }
 
 .home_imagem {
@@ -80,5 +82,13 @@ p {
     .home_textos {
         padding: .625rem;
     }
-
+    .h_textos{
+        /* font-size: 1.5rem; */
+        padding: .625rem;
+    }
+}
+@media (width <=220px){
+    h1{
+        font-size: 1.2em;
+    }
 }

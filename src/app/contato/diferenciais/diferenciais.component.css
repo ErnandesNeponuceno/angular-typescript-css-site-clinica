@@ -1,5 +1,5 @@
 .diferenciais {
-    width: 100%;
+    max-width: 100%;
     padding: 2rem 4rem;
 }
 
@@ -28,7 +28,7 @@
 
 .item {
     text-align: center;
-    padding: 20px;
+    padding: 1.25rem;
     border: 1px solid #ddd;
     box-shadow: #00429339 0px 2px 5px -1px, #0000004d 0px 1px 3px -1px;
     border-radius: 20px;
@@ -41,7 +41,8 @@
 
 .item h3 {
     color: #007BFF;
-    font-size: 18px;
+    font-size: 1rem;
+    font-weight: bold;
     margin: 10px 0;
 }
 
@@ -61,7 +62,8 @@
         padding: 2rem 1rem;
     }
     .grid {
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
         padding: 2rem;
     }
 }
@@ -70,7 +72,13 @@
     .diferenciais {
         padding: 1rem .625rem;
     }
+    .diferenciais h2 {
+        font-size: 1.25em;
+    }
     .grid {
-        padding: 1rem;
+        padding: .625rem;
+    }
+    .item {
+        padding: .625rem;
     }
 }

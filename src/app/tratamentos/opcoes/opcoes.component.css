@@ -14,10 +14,11 @@
     text-align: center;
     align-items: center;
     margin-top: 2rem;
+    max-width: 100%;
 }
 
 .topico_opcoes>h2 {
-    font-size: 36px;
+    font-size: 2rem;
     font-weight: bold;
     margin-top: 1rem;
 }
@@ -106,7 +107,6 @@
 .final_img {
     display: flex;
     justify-content: center;
-    padding: 0 1rem 0 0;
 }
 
 .final_texto {
@@ -192,18 +192,28 @@
 
 @media (width <=425px) {
     .trat_options {
-        padding: 1rem;
+        padding: .625rem;
     }
 
     .topico_finalizacao {
-        padding: .625rem 1rem 2rem;
+        padding: .625rem .625rem 2rem;
     }
 
     .topico_opcoes {
-        padding: 1rem;
+        padding: .625rem;
     }
 
     .topico_opcoes>h2 {
-        font-size: 26px;
+        font-size: 1.25rem;
+    }
+    .opctions h4{
+        font-size: 1em;
+  
+    }
+    .final_texto{
+        padding: 1rem;
+    }
+    .final_img>button{
+        max-width: 80%;
     }
 }

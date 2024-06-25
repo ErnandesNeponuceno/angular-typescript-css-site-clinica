@@ -1,5 +1,7 @@
 .home {
     background-color: #00B7E7;
+    max-width: 100%;
+    margin: 0 auto;
 }
 
 .content_home {
@@ -9,6 +11,8 @@
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
+    max-width: 100%;
+
 }
 
 .text_home {
@@ -19,6 +23,8 @@
     border-radius: 20px;
     background: linear-gradient(176deg, rgba(214, 252, 254, 0.033) 0%, #b5d5ee 200%);
     height: 100%;
+    margin: 0 auto;
+    max-width: 100%;
 }
 
 .text__home__page {
@@ -39,18 +45,20 @@
 
 .img_home img {
     width: 100%;
-    max-width: 320px;
+    max-width: 20rem;
     height: auto;
     object-fit: scale-down;
     align-self: flex-end;
 }
 
 .text__home__page h1 {
-    font-size: 40px;
+    font-size: 2.5rem;
     margin-bottom: 20px;
     color: #004193;
     font-weight: bold;
     margin-top: 1rem;
+    max-width: 100%;
+
 }
 
 .text__home__page p {
@@ -127,5 +135,14 @@
     }
     .text__home__page {
         padding: 0 .8rem;
+    }
+}
+
+@media (width <=220px){
+    .text__home__page h1{
+        font-size: 2em;
+    }
+    .text__home__page > p{
+        font-size: 1rem;
     }
 }

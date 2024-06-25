@@ -26,7 +26,7 @@
 }
 
 .hero-text h2 {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
 }
 
 .hero-text p {
@@ -38,7 +38,7 @@
     background-color: transparent;
     color: #fff;
     border: 1px solid white;
-    padding: 0.5rem 2rem;
+    padding: .5rem 1rem;
     border-radius: 50px;
     font-size: 1rem;
 }
@@ -97,5 +97,23 @@
     }
     .hero-image img{ 
         max-width: 300px;
-     }
+    }
+    .hero-text h2 {
+        font-size: 1.75em;
+    }
+}
+
+@media (width <=220px){
+    .hero-text h2 {
+        font-size: 1.5em;
+    }
+    .hero-text p {
+        font-size: 1em;
+    }
+    .hero-text button {
+        font-size: .8rem;
+    }
+    .hero-text{
+        padding: 1rem .5rem 2rem;
+    }
 }

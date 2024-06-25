@@ -38,11 +38,11 @@
     background-color: #2ecc71;
     color: white;
     border: none;
-    padding: 0.75rem;
+    padding: .5rem;
     border-radius: 4px;
     font-size: 1rem;
     cursor: pointer;
-    width: 200px;
+    width: clamp(100px 70% 200px);
     align-self:flex-end;
 }
 

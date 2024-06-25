@@ -24,12 +24,11 @@
 }
 
 .texto_quarta_sessao > h2 {
-    font-size: 2rem;
     font-weight: 400;
     margin-bottom: 10px;
     line-height: 2; 
     letter-spacing: 1rem;
-    margin: 0;
+    max-width: 100% ;
 }
 
 .texto_quarta_sessao > p {

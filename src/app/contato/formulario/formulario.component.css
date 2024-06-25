@@ -3,6 +3,7 @@
 .formulario{
     display: flex;
     margin: 0 auto;
+    max-width: 100%;
     gap: 2rem;
     padding: 2rem 4rem;
     color: #004193;
@@ -12,7 +13,7 @@ h2 {
     text-align: center;
     color: #004193;
     margin-bottom: 1rem;
-    font-size: 2rem;
+    font-weight: 700
 }
 
 .texto_form{
@@ -47,7 +48,7 @@ h2 {
 }
 
 .container {
-    width: 100%;
+    max-width: 100%;
     background-color: white;
     padding: 1.25rem;
     box-shadow: #00429339 0px 2px 5px -1px, #0000004d 0px 1px 3px -1px;
@@ -124,4 +125,17 @@ textarea {
     .texto_form{
         padding: 1rem;
     }
+    .form-buttons {
+        flex-direction: column;
+    }
+    .btn{
+        margin-bottom: .625rem;
+    }
+}
+
+@media (width <=220px){
+    h2{
+        font-size: 1em;
+    }
+
 }
