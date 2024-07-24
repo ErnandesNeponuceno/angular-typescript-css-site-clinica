@@ -56,6 +56,7 @@ button{
         transition: transform 0.3s ease-in;
         background-color: #004193;
         z-index: 98;
+        padding: 2rem 0;
     }
 
     nav .menu-items a:hover {
