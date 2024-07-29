@@ -1,9 +1,45 @@
-
 ## Site clínica Odonto+ com Angular, Typescript e CSS.
 
-O site criado para uma clinica de odontologia ficticia chamada Odonto +, faz parte do meu processo de evolução continua na criação de uma aplicações web.
+Site completo com 4 páginas originais.
 
-Desenvolver um projeto com essas tecnologias fortalece habilidades em desenvolvimento front-end, modularização de código, e boas práticas de programação, além de proporcionar uma base sólida para criar aplicações web escaláveis e manuteníveis.<br>
+Os temas abordados são:<br>
+
+- Responsividade e Design UI/UX.
+- Roteamento.
+- Tratamento de formulários.
+- Diretivas estruturais.
+- Componentes.<br>
+
+## Estrutura do Projeto:
+
+- **src/**
+  - **app/**
+    - **contato/**
+        - **diferenciais/**
+        - **duvidas/**
+        - **formulario/**
+        - **contato.component.html/**
+    - **home/**
+        - **quarta-sessao/**
+        - **segunda-sessao/**
+        - **terceira-sessao/**
+        - **home.component.html/**
+    - **shared/**
+        - **footer/**
+        - **header/**
+        - **navbar/**
+        - **shared.module.ts/**
+    - **sobre/**
+        - **avaliacao/**
+        - **resumo/**
+        - **sobre.component.html/**
+    - **tratamentos/**
+        - **chamada/**
+        - **opcoes/**
+        - **tratamentos.component.html/**
+  - **assets/**
+    - **Arquivos de imagens**
+  - **index.html:** Arquivo HTML de encabeçamento.
 
 ## 🤔 O que aprendi com esse projeto:
 
@@ -57,6 +93,7 @@ Organização do código em diferentes arquivos.
 ## 💻 Tecnologias utilizadas nesse projeto:
 
 <div style="display: inline_block">
+  <img alt="HTML5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
   <img alt="CSS3" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
   <img alt="TYPESCRIPT" src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white">
   <img alt="ANGULAR" src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white">
@@ -64,9 +101,13 @@ Organização do código em diferentes arquivos.
 </div>
 
 ## 💻 Preview:
+
 - Veja como ficou o projeto acessando: [Link](https://angular-typescript-css-site-clinica.vercel.app/home)
 
 ![Imagens do Projeto - Página 01](src/assets/img/page-01.png)
 
 ![Imagens do Projeto - Página 03](src/assets/img/page-03.png)
+
+## Autor
+- Ernandes Neponuceno - [Linkedin](https://www.linkedin.com/in/ernandes-neponuceno/)
 
