@@ -4,7 +4,7 @@ Site completo com 4 páginas originais.
 
 Os temas abordados são:<br>
 
-- Responsividade e Design UI/UX.
+- Responsividade e Design UI.
 - Roteamento.
 - Tratamento de formulários.
 - Diretivas estruturais.
